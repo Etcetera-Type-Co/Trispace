@@ -8,6 +8,7 @@ mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
 
 echo "Generating VFs"
 fontmake -g Sources/Trispace.glyphs -o variable --output-path ./fonts/variable/Trispace[wdth,wght].ttf
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Trispace.designspace ./fonts/variable/Trispace\[wdth\,wght\].ttf
 
 echo "Post processing VFs"
 for ttf in ./fonts/variable/*.ttf
@@ -16,7 +17,6 @@ do
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 	gftools fix-unwanted-tables --tables MVAR $ttf
-
 	woff2_compress $ttf
 
 done
