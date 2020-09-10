@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="800" default="100"/>
+    <axis tag="wdth" name="Width" minimum="75" maximum="125" default="100"/>
+  </axes>
+
+  <sources>
+    <source filename="TrispaceCondensed-Thin.ufo" name="Trispace Condensed Thin" familyname="Trispace Condensed" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="TrispaceCondensed-ExtraBold.ufo" name="Trispace Condensed ExtraBold" familyname="Trispace Condensed" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="Trispace-Thin.ufo" name="Trispace Thin" familyname="Trispace" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Trispace-ExtraBold.ufo" name="Trispace ExtraBold" familyname="Trispace" stylename="ExtraBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="TrispaceExpanded-Thin.ufo" name="Trispace Expanded Thin" familyname="Trispace Expanded" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+    </source>
+    <source filename="TrispaceExpanded-ExtraBold.ufo" name="Trispace Expanded ExtraBold" familyname="Trispace Expanded" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+    </source>
+  </sources>
+
+
+  <instances>
+    <instance name="Trispace Thin" familyname="Trispace" stylename="Thin" filename="instance_ufo/Trispace-Thin.ufo" stylemapfamilyname="Trispace Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace ExtraLight" familyname="Trispace" stylename="ExtraLight" filename="instance_ufo/Trispace-ExtraLight.ufo" stylemapfamilyname="Trispace ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace Light" familyname="Trispace" stylename="Light" filename="instance_ufo/Trispace-Light.ufo" stylemapfamilyname="Trispace Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace Regular" familyname="Trispace" stylename="Regular" filename="instance_ufo/Trispace-Regular.ufo" stylemapfamilyname="Trispace" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace Medium" familyname="Trispace" stylename="Medium" filename="instance_ufo/Trispace-Medium.ufo" stylemapfamilyname="Trispace Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace SemiBold" familyname="Trispace" stylename="SemiBold" filename="instance_ufo/Trispace-SemiBold.ufo" stylemapfamilyname="Trispace SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace Bold" familyname="Trispace" stylename="Bold" filename="instance_ufo/Trispace-Bold.ufo" stylemapfamilyname="Trispace" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <instance name="Trispace ExtraBold" familyname="Trispace" stylename="ExtraBold" filename="instance_ufo/Trispace-ExtraBold.ufo" stylemapfamilyname="Trispace ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+  </instances>
+
+</designspace>
