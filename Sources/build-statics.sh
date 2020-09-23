@@ -1,21 +1,21 @@
 #!/bin/sh
 set -e
-source ../env/bin/activate
+source ./env/bin/activate
 
-OTF_DIR=../fonts/static/otf
-TTF_DIR=../fonts/static/ttf
-WEB_DIR=../fonts/web
+OTF_DIR=./fonts/static/otf
+TTF_DIR=./fonts/static/ttf
+WEB_DIR=./fonts/web
 
 echo ".
 MAKE UFO
 ."
 rm -rf *.ufo
-glyphs2ufo Trispace.glyphs --generate-GDEF
-rm Trispace.designspace
-mv Trispace-CondensedThin.ufo TrispaceCondensed-Thin.ufo
-mv Trispace-ExpandedThin.ufo TrispaceExpanded-Thin.ufo
-mv Trispace-CondensedExtraBold.ufo TrispaceCondensed-ExtraBold.ufo
-mv Trispace-ExpandedExtraBold.ufo TrispaceExpanded-ExtraBold.ufo
+glyphs2ufo ./Sources/Trispace.glyphs --generate-GDEF
+rm ./Sources/Trispace.designspace
+mv ./Sources/Trispace-CondensedThin.ufo ./Sources/TrispaceCondensed-Thin.ufo
+mv ./Sources/Trispace-ExpandedThin.ufo ./Sources/TrispaceExpanded-Thin.ufo
+mv ./Sources/Trispace-CondensedExtraBold.ufo ./Sources/TrispaceCondensed-ExtraBold.ufo
+mv ./Sources/Trispace-ExpandedExtraBold.ufo ./Sources/TrispaceExpanded-ExtraBold.ufo
 
 ##########################################
 
@@ -25,8 +25,8 @@ GENERATING STATICS
 rm -rf $OTF_DIR $TTF_DIR
 mkdir -p $OTF_DIR $TTF_DIR
 
-fontmake -m Trispace-static.designspace -i -o ttf --output-dir $TTF_DIR
-fontmake -m Trispace-static.designspace -i -o otf --output-dir $OTF_DIR
+fontmake -m ./Sources/Trispace-static.designspace -i -o ttf --output-dir $TTF_DIR
+fontmake -m ./Sources/Trispace-static.designspace -i -o otf --output-dir $OTF_DIR
 
 ##########################################
 
