@@ -1,10 +1,10 @@
 #!/bin/sh
 set -e
-source ../env/bin/activate
+source ./env/bin/activate
 
-OTF_DIR=../fonts/static/otf
-TTF_DIR=../fonts/static/ttf
-WEB_DIR=../fonts/web
+OTF_DIR=./fonts/static/otf
+TTF_DIR=./fonts/static/ttf
+WEB_DIR=./fonts/web
 
 #requires https://github.com/bramstein/homebrew-webfonttools
 
@@ -14,7 +14,7 @@ MAKE WEBFONTS
 rm -rf $WEB_DIR
 mkdir -p $WEB_DIR $WEB_DIR/woff $WEB_DIR/woff2
 
-vf=$(ls ../fonts/variable/*.ttf)
+vf=$(ls ./fonts/variable/*.ttf)
 for fonts in $vf
 do
   woff2_compress $fonts
