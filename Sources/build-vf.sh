@@ -7,7 +7,7 @@ VF_PATH=./fonts/variable/Trispace[wdth,wght].ttf
 echo ".
 MAKE UFO
 ."
-rm -rf *.ufo
+rm -rf ./Sources/*.ufo
 glyphs2ufo ./Sources/Trispace.glyphs --generate-GDEF
 rm ./Sources/Trispace.designspace
 mv ./Sources/Trispace-CondensedThin.ufo ./Sources/TrispaceCondensed-Thin.ufo
@@ -40,11 +40,11 @@ do
 done
 rm ./fonts/variable/*gasp*
 
-python gen_stat.py $VF_PATH
+python ./Sources/gen_stat.py $VF_PATH
 
 ##########################################
 
-rm -rf instance_ufo/ *.ufo
+rm -rf Sources/instance_ufo/ Sources/*.ufo
 
 echo ".
 COMPLETE!

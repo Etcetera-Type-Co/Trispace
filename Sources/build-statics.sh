@@ -9,7 +9,7 @@ WEB_DIR=./fonts/web
 echo ".
 MAKE UFO
 ."
-rm -rf *.ufo
+rm -rf ./Sources/*.ufo
 glyphs2ufo ./Sources/Trispace.glyphs --generate-GDEF
 rm ./Sources/Trispace.designspace
 mv ./Sources/Trispace-CondensedThin.ufo ./Sources/TrispaceCondensed-Thin.ufo
@@ -58,7 +58,7 @@ done
 
 ##########################################
 
-rm -rf instance_ufo/ *.ufo
+rm -rf ./Sources/instance_ufo/ ./Sources/*.ufo
 
 echo ".
 COMPLETE!

@@ -12128,7 +12128,7 @@ unicode = 1E24;
 {
 color = 6;
 glyphname = I;
-lastChange = "2020-09-10 12:23:18 +0000";
+lastChange = "2020-09-25 11:37:02 +0000";
 layers = (
 {
 anchors = (
@@ -14885,7 +14885,7 @@ width = 1800;
 {
 color = 10;
 glyphname = Iogonek;
-lastChange = "2020-09-10 12:23:24 +0000";
+lastChange = "2020-09-25 11:39:06 +0000";
 layers = (
 {
 components = (
