@@ -1,5 +1,5 @@
 # Trispace
-## Two axes / Variable / 9 Weights / Condensed to Extended / Sans
+## Two axes / Variable / 8 Weights / Condensed to Expanded / Sans
 
 
   ![Sample of Trispace Family.](img-trispace.png "Trispace")
